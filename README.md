@@ -7,3 +7,25 @@
   On the whole, this application help organizations and project leads to maintain accountability and increase efficiency, while providing the necessary transparency to the donors about the transactional activities done by the organization.
 
 Contracts Inspired by https://github.com/tejasbadani/HelpAnybody-Ethereum-CrowdFunding/
+
+
+Steps to setup
+1. Install metamask extension on browser
+2. Install nodejs
+3. Install ganache
+4. Open windows powershell with admin permissions
+a. node -v
+b. npm install -g npm
+c. npm install -g -production windows-build-tools
+d. npm install -g truffle
+e. npm install -g node-modules
+f. Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+5. Download the project folder from github
+6. Open ganache
+7. Open windows powershell with admin permissions
+a. Navigate to the project directory using cd command
+b. npm install @openzeppelin/contracts
+c. Open ganache
+d. truffle compile
+e. truffle migrate
+f. truffle test
